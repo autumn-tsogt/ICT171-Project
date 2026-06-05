@@ -80,6 +80,12 @@ If it works, you will be able to access your server using the domain name instea
 - TCP port 22, 80, and 443 are open and available through the firewall.
 
 ## 1. Switch from local VM terminal to EC2
+Set the directory to where the key file is. 
+For example:
+``` bash
+cd /home/user/Downloads
+```
+
 You should be able to ssh from your local VM to EC2 before getting a HTTPS certificate.
 ``` bash
 ssh -i pemkey.pem ubuntu@yourdomain-name-goes-here.com
