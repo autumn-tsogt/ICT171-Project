@@ -8,7 +8,7 @@ Assuming a Linux environment is pre-installed and running on a Virtual box with:
 - Mac/Linux: Terminal
 
 ## 1. Log in to the AWS EC2 Management Console 
-- Go to: [http://aws.amazon.com/ec2/] (http://aws.amazon.com/ec2/)
+- Go to: http://aws.amazon.com/ec2/
 - Sign in to Console.
 - Search for **EC2** in the search bar and open it.
 
@@ -38,7 +38,7 @@ Therefore, do **NOT** lose this file.
 
 3.5 Click on **Edit** to configure the **Network settings** and leave it as default.
 For the **Firewall**, select **Create security group** and call it **ssh-and-web**. 
-**Inbound Security Group Rules** should be set like the following table:
+**Inbound Security Group Rules** should be set like the following table: \
 ![Inbound rules](../Screenshots/Inbound_rules.png)
 SSH is used for loggin in remotely, HTTP is for web server, and HTTPS is for secure web traffic.
 
