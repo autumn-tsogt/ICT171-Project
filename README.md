@@ -2,8 +2,9 @@
 ## Autumn Tsogtbaatar 35669132
 
 Global IP address: 32.236.37.143 \
+                   https://32.236.37.143 \
 DNS entry: https://www.expensetracker.work/ \
-        https://expensetracker.work/
+           https://expensetracker.work/
         
 Video explainer:
 
