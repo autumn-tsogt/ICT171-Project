@@ -74,5 +74,18 @@ To test your webserver, let's first create an **index.html** on the **Terminal l
 nano /var/www/html/index.html
 ```
 
+``` bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text inside an HTML file.</p>
+</body>
+</html>
+```
 To find your public IP address, go to **EC2 Dashboard** -> **Instance** -> **Public IPv4**.
 Open a browser and paste the IP address with **http://** before the IP address and click enter to ensure your web page is working. 
