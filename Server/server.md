@@ -25,8 +25,8 @@ This is important because latency depends on region and resources are region-spe
 3.1 Under **Name and tags**, give the instance a meaningful name so it can be identified later.
 - For example, MyCloudServer.
 
-3.2 Under **Application and OS Images (Amazon Machine Image):
-Select **Ubuntu** and choose **Ubuntu Server 24.04 LTS from the drop-down menu.
+3.2 Under **Application and OS Images (Amazon Machine Image)**:
+Select **Ubuntu** and choose **Ubuntu Server 24.04 LTS** from the drop-down menu.
 
 3.3 Choose an instance type by selecting **t3.micro**.
 
@@ -39,7 +39,7 @@ Therefore, do **NOT** lose this file.
 3.5 Click on **Edit** to configure the **Network settings** and leave it as default.
 For the **Firewall**, select **Create security group** and call it **ssh-and-web**. 
 **Inbound Security Group Rules** should be set like the following table: \
-![Inbound rules](../Screenshots/Inbound_rules.png)
+![Inbound rules](../Screenshots/Inbound_rules.png) \
 SSH is used for loggin in remotely, HTTP is for web server, and HTTPS is for secure web traffic.
 
 3.6 **Configure storage** to **8 GB gp3**. 
