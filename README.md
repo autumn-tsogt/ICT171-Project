@@ -1,13 +1,13 @@
 # ICT171 Final Project
 ## Student Information
-Student name: Azjargal Tsogtbaatar 
+Student name: Azjargal Tsogtbaatar \
 Student number: 35669132
 
-Global IP address: 
+Global IP address: \
 32.236.37.143 \
-http://32.236.37.143/ \
+http://32.236.37.143/
 
-DNS entry: 
+DNS entry: \
 https://www.expensetracker.work/ \
 https://expensetracker.work/
         
