@@ -75,7 +75,6 @@ nano /var/www/html/index.html
 ```
 
 ``` bash
-<!DOCTYPE html>
 <html>
 <head>
     <title>My First Webpage</title>
