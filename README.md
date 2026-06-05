@@ -18,9 +18,7 @@ Video explainer:
 
 ## Project Overview
 This project is a web-based **Daily Expense Tracker** hosted on an **AWS EC2 instance**. 
-The application allows users to record, categorise, and monitor their daily spending through a simple and user-friendly interface.
-
-The goal is to promote better financing and budgeting habits.
+The application allows users to record, categorise, and monitor their daily spending through a simple and user-friendly interface. The goal is to promote better financing and budgeting habits.
 
 ---
 
@@ -36,4 +34,4 @@ The goal is to promote better financing and budgeting habits.
 ## Resources
 - Frontend: HTML, CSS, JavaScript
 - Backend/Hosting: AWS EC2 (Ubuntu Server)
-- Web Server: Apache2 / Nginx (depending on setup)
+- Web Server: Nginx
