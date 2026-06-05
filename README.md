@@ -11,7 +11,8 @@ DNS entry: \
 https://www.expensetracker.work/ \
 https://expensetracker.work/
         
-Video explainer:
+Video explainer: \
+
 
 ## Daily Expense Tracker
 
