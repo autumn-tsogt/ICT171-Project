@@ -82,7 +82,11 @@ If it works, you will be able to access your server using the domain name instea
 ## 1. Switch from local VM terminal to EC2
 You should be able to ssh from your local VM to EC2 before getting a HTTPS certificate.
 ``` bash
-ssh -i pemkey.pem yourusername@yourdomain-name-goes-here.com
+ssh -i pemkey.pem ubuntu@yourdomain-name-goes-here.com
+```
+For example,
+``` bash
+ssh -i webserverkey.pem ubuntu@3.27.6.95
 ```
 
 ## 2. Obtaining a digital certificate from Let's Encrypt
