@@ -19,7 +19,7 @@ scp -i mykey.pem -r ProjectFolder ubuntu@EC2_PUBLIC_IP:/home/ubuntu/
 ```
 For example,
 ``` bash
-scp -i webserverkey.pem -r Test ubuntu@3_27_6_95:/home/ubuntu/
+scp -i webserverkey.pem -r Test ubuntu@3.27.6.95:/home/ubuntu/
 ```
 
 ## 2. Move files into web directory on EC2
@@ -29,7 +29,7 @@ ssh -i mykey.pem ubuntu@EC2_PUBLIC_IP
 ```
 For example,
 ``` bash
-scp -i webserverkey.pem ubuntu@3_27_6_95
+scp -i webserverkey.pem ubuntu@3.27.6.95
 ```
 - Then, move the files:
 ``` bash
@@ -44,6 +44,10 @@ sudo mv Test/* /var/www/html/
 Open the website by entering the public IP address into a browser.
 ``` bash
 http://EC2_PUBLIC_IP
+```
+For example,
+``` bash
+http://3.27.6.95/
 ```
 
 # Part 2. Setting up DNS
