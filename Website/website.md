@@ -1,7 +1,7 @@
 # Part 1. Uploading Project Files to EC2
 
 ## Pre-requisites
-- EC2 Public IP
+- EC2 Public IP address
 - EC2 key file
 - Ubuntu username
 
@@ -49,17 +49,17 @@ http://EC2_PUBLIC_IP
 # Part 2. Setting up DNS
 ## 1. Go to https://www.namecheap.com/ and search for a domain name to give your website.
 
-![Namecheap_lookup](../Screenshots/Namecheap_lookup.png) \
+![Namecheap_lookup](../Screenshots/Namecheap_lookup.png) 
 
 Select a domain name you would like to purchase and add it to your cart.
 
-![Namecheap_cart](../Screenshots/Namecheap_cart.png) \
+![Namecheap_cart](../Screenshots/Namecheap_cart.png) 
 
 Once you have purchased your domain name, go to **Domain List** on the left of the website.
 Then, click on **Advanced DNS** and *Add new record** to add **A Records** to directly link your public IP Address to your domain name.
 Please choose the correct type and enter the host and public IP address.
 
-![DNS_config](../Screenshots/DNS_config.png) \
+![DNS_config](../Screenshots/DNS_config.png) 
 
 ## 2. Test DNS
 Once you have linked your IP address to your domain, let's test it by opening a browser and entering the domain you purchased.
@@ -113,8 +113,8 @@ https://yourdomain.com
 
 For example:
 A website with secure encryption
-![Https_web](../Screenshots/Https_web.png) \
+![Https_web](../Screenshots/Https_web.png) 
 
 A website with no secure encryption
-![Http_web](../Screenshots/Http_web.png) \
+![Http_web](../Screenshots/Http_web.png) 
 
