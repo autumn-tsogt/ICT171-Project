@@ -19,7 +19,7 @@ scp -i mykey.pem -r ProjectFolder ubuntu@EC2_PUBLIC_IP:/home/ubuntu/
 ```
 For example,
 ``` bash
-scp -i webserverkey.pem -r Test ubuntu@3.27.6.95:/home/ubuntu/
+scp -i webserverkey.pem -r Test ubuntu@3.27.6.95:/home/user/Downloads
 ```
 
 ## 2. Move files into web directory on EC2
