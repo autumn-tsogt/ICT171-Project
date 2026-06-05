@@ -76,9 +76,8 @@ nano /var/www/html/index.html
 
 ``` bash
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>My First Webpage</title>
 </head>
 <body>
