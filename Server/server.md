@@ -69,21 +69,5 @@ sudo apt install nginx-full
 ```
 
 ## 6. Test the Webserver in Browser
-To test your webserver, let's first create an **index.html** on the **Terminal line** and modify the HTML file.
-``` bash
-nano /var/www/html/index.html
-```
-
-``` bash
-<html>
-<head>
-    <title>My First Webpage</title>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph of text inside an HTML file.</p>
-</body>
-</html>
-```
 To find your public IP address, go to **EC2 Dashboard** -> **Instance** -> **Public IPv4**.
 Open a browser and paste the IP address with **http://** before the IP address and click enter to ensure your web page is working. 
