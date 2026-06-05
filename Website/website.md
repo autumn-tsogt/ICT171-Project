@@ -29,7 +29,7 @@ ssh -i mykey.pem ubuntu@EC2_PUBLIC_IP
 ```
 For example,
 ``` bash
-scp -i webserverkey.pem ubuntu@3.27.6.95
+ssh -i webserverkey.pem ubuntu@3.27.6.95
 ```
 - Then, move the files:
 ``` bash
